@@ -52,7 +52,7 @@ function setup(){
 
 function draw(){
     if (backgroundImg)
-    background(backgroundImg);
+    background(bg);
     text(score, 1150,30);
     Engine.update(engine);
     console.log(box2.body.position.x);
