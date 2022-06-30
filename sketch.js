@@ -51,7 +51,7 @@ function setup(){
 }
 
 function draw(){
-    if (backgroundImg)
+    //if (backgroundImg)
     background(bg);
     text(score, 1150,30);
     Engine.update(engine);
